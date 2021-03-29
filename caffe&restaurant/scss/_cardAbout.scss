@@ -1,0 +1,15 @@
+main .about {
+@include card-style();
+    img {
+        width: 100%;
+    }
+
+    p {
+        padding: 0px 10px 10px 20px;
+        text-indent: -10px;
+        color: $white;
+    }
+}
+.about :nth-child(2), .about :nth-child(2) {
+        padding-top: 15px;
+}

@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+button {
+    position: absolute;
+    right: 0px;
+    max-width: 25px;
+    width: 100%;
+    overflow: hidden;
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+span {
+    font-weight: bold;
+}

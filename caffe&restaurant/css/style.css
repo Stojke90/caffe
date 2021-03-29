@@ -1,0 +1,203 @@
+/**/
+/**/
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, sans-serif; }
+
+button {
+  position: absolute;
+  right: 0px;
+  max-width: 25px;
+  width: 100%;
+  overflow: hidden;
+  height: 25px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  z-index: 1; }
+
+span {
+  font-weight: bold; }
+
+/*HEADER*/
+header {
+  height: 80px;
+  line-height: 80px;
+  background-color: #00000047;
+  display: flex; }
+  header h2 {
+    color: red;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 15px;
+    font-size: 3em;
+    width: 100%; }
+  header section {
+    width: 10%;
+    padding: 10px; }
+    header section img {
+      width: 39px;
+      border-radius: 10px;
+      margin-right: 10px; }
+      header section img:hover {
+        animation: turn 3s; }
+
+@keyframes turn {
+  0% {
+    transform: rotateZ(0deg);
+    filter: drop-shadow(0px 0px 10px black);
+    border-radius: 20px; }
+  50% {
+    transform: rotateZ(180deg);
+    filter: drop-shadow(0px 0px 10px black);
+    border-radius: 20px; }
+  100% {
+    transform: rotateZ(360deg); } }
+/*Main*/
+main {
+  display: flex;
+  padding-top: 50px; }
+  main nav {
+    padding: 100px 0px 0px 30px; }
+    main nav .nav {
+      list-style-type: none; }
+  main nav .nav li {
+    border-style: solid;
+    border-color: #fff;
+    padding: 7px 10px;
+    border-width: thin;
+    text-align: left;
+    cursor: pointer;
+    margin-top: 20px;
+    color: red;
+    transform: skew(-10deg, -8deg); }
+    main nav .nav li:hover {
+      border-color: red;
+      color: #fff;
+      transform: skew(10deg, 8deg); }
+    main nav .nav li :active {
+      transform: scale(1.5); }
+    main nav .nav li p {
+      text-transform: uppercase;
+      font-weight: lighter; }
+
+/*key frame*/
+@keyframes mymove {
+  from {
+    height: 850px;
+    width: 100%; }
+  to {
+    height: 0px;
+    width: 0px; } }
+@keyframes secondMOve {
+  from {
+    height: 1px; }
+  to {
+    height: 650px; } }
+/* First card */
+main .about {
+  display: none;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  background-color: #7b78784d;
+  margin: auto;
+  overflow: hidden; }
+  main .about img {
+    width: 100%; }
+  main .about p {
+    padding: 0px 10px 10px 20px;
+    text-indent: -10px;
+    color: #fff; }
+
+.about :nth-child(2), .about :nth-child(2) {
+  padding-top: 15px; }
+
+/* Second Card */
+.menu {
+  display: none;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  background-color: #7b78784d;
+  margin: auto;
+  overflow: hidden; }
+  .menu div {
+    padding: 5px;
+    display: flex;
+    box-shadow: 0 0 9px 7px black; }
+    .menu div p {
+      width: 50%;
+      text-align: center;
+      padding: 5px;
+      cursor: pointer; }
+      .menu div p:first-child {
+        background: linear-gradient(45deg, black, red); }
+      .menu div p:hover {
+        transform: scale(1.1); }
+  .menu #cardDrinks {
+    background-repeat: no-repeat;
+    height: 850px;
+    background-size: 95%;
+    background-position: center; }
+  .menu article #drinks {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    line-height: 2;
+    padding-top: 48%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center; }
+  .menu #mealCard {
+    display: none;
+    background-repeat: no-repeat;
+    height: 850px;
+    background-size: 95%;
+    background-position: center; }
+  .menu #eat {
+    max-width: 450px;
+    width: 100%;
+    margin: auto;
+    line-height: 2;
+    padding-top: 48%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-indent: 30px; }
+
+/* Third card */
+main .where {
+  display: none;
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+  background-color: #7b78784d;
+  margin: auto;
+  overflow: hidden; }
+  main .where :nth-child(2) {
+    box-shadow: 0 0 9px 7px black;
+    padding: 10px;
+    color: red; }
+  main .where :nth-child(4) {
+    background: #f0ffff6b;
+    padding: 10px; }
+  main .where iframe {
+    padding: 10px;
+    background: radial-gradient(#ff0808, #272323); }
+
+/* footer */
+footer {
+  height: 100px; }
+
+/*# sourceMappingURL=style.css.map */

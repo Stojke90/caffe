@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    padding-top: 50px;
+
+    nav {
+        padding: 100px 0px 0px 30px;
+
+        .nav {
+            list-style-type: none;
+        }
+    }
+    nav .nav li {
+        border-style: solid;
+        border-color: $white;
+        padding: 7px 10px;
+        border-width: thin;
+        text-align: left;
+        cursor: pointer;
+        margin-top: 20px;
+        color: $red;
+        transform: skew(-10deg,-8deg);
+
+        &:hover {
+            border-color: $red;
+            color: $white;
+            transform: skew(10deg,8deg);
+        }
+
+        :active {
+            transform: scale(1.5);
+        }
+
+        p {
+            text-transform: uppercase;
+            font-weight: lighter;
+        }
+    }
+}

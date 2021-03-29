@@ -1,0 +1,9 @@
+@mixin card-style(){
+    display: none;
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    background-color: #7b78784d;
+    margin: auto;
+    overflow: hidden;
+}

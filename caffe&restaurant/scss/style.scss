@@ -1,0 +1,23 @@
+
+@import 'colors';
+/**/
+@import 'mixin';
+/**/
+/* GENERAL */
+@import 'general';
+/*HEADER*/
+@import 'header';
+/*Main*/
+@import 'mainButtons';
+/*key frame*/
+@import 'keyFrame';
+/* First card */
+@import 'cardAbout';
+/* Second Card */
+@import 'cardMenu';
+/* Third card */
+@import 'cardWhere';
+/* footer */
+footer {
+    height: 100px;
+}

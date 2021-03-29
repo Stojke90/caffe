@@ -1,0 +1,19 @@
+main .where {
+@include card-style();
+
+    & :nth-child(2) {
+        box-shadow: 0 0 9px 7px $black;
+        padding: 10px;
+        color: $red;
+    }
+
+    & :nth-child(4) {
+        background: #f0ffff6b;
+        padding: 10px;
+    }
+
+    iframe {
+        padding: 10px;
+        background: radial-gradient(#ff0808, #272323);
+    }
+}
